@@ -1,4 +1,4 @@
-# US Accidents Prediction Project Document
+# US Accidents Prediction
 Please go through the report above for a brief understanding and model results
 
 ## Project Overview
