@@ -26,3 +26,13 @@ Feature engineering was performed to create new features that could improve the 
 The model's performance was evaluated using various metrics, including accuracy, precision, recall, and F1 score. Finally, the best-performing model was selected and deployed to a web application to enable users to input accident details and receive predictions on the accident's severity.
 
 The web application was built using Flask, a Python web framework, and deployed on Heroku, making it accessible to the public. The project documentation includes a detailed description of the data sources, data preprocessing steps, feature engineering, model selection, and evaluation metrics.
+
+## Results
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99    287610
+           1       0.11      0.24      0.15      2283
+
+    accuracy                           0.98    289893
+   macro avg       0.55      0.61      0.57    289893
+weighted avg       0.99      0.98      0.98    289893
